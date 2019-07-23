@@ -1,20 +1,17 @@
 <template>
-  <div class="page">
-    <slot></slot>
-  </div>
+  <div class="nav-bar">hoge</div>
 </template>
 
 <script lang="ts">
 import { Component, Prop, Vue } from "vue-property-decorator";
 
 @Component
-export default class PortPage extends Vue {}
+export default class PortNavBar extends Vue {}
 </script>
 
 <style scoped>
-.page {
+.nav-bar {
   width: 100vw;
-  height: 100vw;
   top: 0px;
   left: 0;
   position: absolute;
