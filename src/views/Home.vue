@@ -1,6 +1,6 @@
 <template>
   <PortPage>
-    <!-- <PortButton></PortButton> -->
+    <PortNavBar>hoge-</PortNavBar>
   </PortPage>
 </template>
 
@@ -8,11 +8,13 @@
 import { Component, Vue } from "vue-property-decorator";
 import PortButton from "@/components/PortButton.vue";
 import PortPage from "@/components/PortPage.vue";
+import PortNavBar from "@/components/PortNavBar.vue";
 
 @Component({
   components: {
     PortButton,
-    PortPage
+    PortPage,
+    PortNavBar
   }
 })
 export default class Home extends Vue {}
