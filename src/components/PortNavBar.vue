@@ -27,7 +27,7 @@ export default class PortNavBar extends Vue {}
 .nav-bar {
   left: 0px;
   top: 0px;
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 100;
   padding: 2.5rem 1.1rem 0px 0px;
