@@ -19,7 +19,7 @@ export default class PortPage extends Vue {}
   left: 0;
   position: absolute;
   background: #ee5050;
-  color: #333;
+  color: #ffffff;
   font-family: Josefin Sans, sans-serif;
   font-size: inherit;
   word-wrap: break-word;

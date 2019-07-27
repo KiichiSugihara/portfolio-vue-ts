@@ -3,3 +3,24 @@
   font-size: 125%;
   overflow-y: scroll;
 }
+.body {
+  font-size: 1em;
+  line-height: 1.5;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+.body,
+button,
+input,
+select,
+textarea {
+  color: rgb(255, 255, 255);
+  fill: rgb(255, 255, 255);
+  -webkit-font-smoothing: antialiased;
+  font-family: 'circular web', sans-serif;
+}
+.nav ul,
+nav ol {
+  list-style: none none;
+}
