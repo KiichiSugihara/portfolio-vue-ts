@@ -1,8 +1,8 @@
 <template>
   <PortPage>
-    <PortNavBar>hoge-</PortNavBar>
+    <PortNavBar></PortNavBar>
     <div class="app-content">
-      <h1 class="app-content__top--title">We don’t even like the internet.</h1>
+      <h1 class="app-content__top--title">Learn everything everyday</h1>
     </div>
   </PortPage>
 </template>
@@ -28,7 +28,6 @@ export default class Home extends Vue {}
   padding-top: 5rem;
   max-width: 61.5rem;
   min-height: 100vh;
-  width: calc(100% - 3rem);
 }
 .app-content__top--title {
   margin-bottom: 0;
