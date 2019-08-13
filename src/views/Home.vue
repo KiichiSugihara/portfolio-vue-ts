@@ -27,6 +27,7 @@ export default class Home extends Vue {}
 .app-content {
   padding-top: 5rem;
   max-width: 61.5rem;
+  min-height: 100vh;
   width: calc(100% - 3rem);
 }
 .app-content__top--title {
