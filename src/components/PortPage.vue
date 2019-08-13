@@ -14,7 +14,7 @@ export default class PortPage extends Vue {}
 <style scoped>
 .page {
   width: 100vw;
-  height: 100vw;
+  min-height: 100vh;
   top: 0px;
   left: 0;
   position: absolute;
